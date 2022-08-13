@@ -21,9 +21,7 @@ class Game {
       return 0;
     } else {
       print("➜ $num is CORRECT ❤, total guesses: $count");
-      print("++++++++++++++++++++++++++++++++++++++++++++++");
-      print("                  END GAME                     ");
-      print("++++++++++++++++++++++++++++++++++++++++++++++");
+      count = 1;
       return 1;
     }
   }
